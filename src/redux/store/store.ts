@@ -4,6 +4,11 @@ import serviceSlice from "../slices/serviceSlice";
 import testimonialSlice from "../slices/testimonialSlice";
 import faqSlice from "../slices/faqSlice";
 import projectSlice from "../slices/projectSlice";
+import meetSlice from "../slices/meetSlice";
+import achSlice from "../slices/achSlice";
+import awardSlice from "../slices/awardSlice";
+import joinSlice from "../slices/joinSlice";
+
 export const store = configureStore({
   reducer: {
     resons: resonsSlice,
@@ -11,6 +16,10 @@ export const store = configureStore({
     testimonial: testimonialSlice,
     faq: faqSlice,
     pro: projectSlice,
+    meet: meetSlice,
+    ach: achSlice,
+    award: awardSlice,
+    join: joinSlice,
   },
 });
 
