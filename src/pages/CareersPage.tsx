@@ -1,3 +1,4 @@
+import Apply from "../components/Apply/Apply";
 import FAQ from "../components/FAQ/FAQ";
 import Footer from "../components/Footer/Footer";
 import HeroCareers from "../components/HeroCareers/HeroCareers";
@@ -11,6 +12,7 @@ const CareersPage = () => {
       <NavBar />
       <HeroCareers />
       <Join />
+      <Apply />
       <Test />
       <FAQ />
       <Footer />

@@ -8,7 +8,8 @@ import meetSlice from "../slices/meetSlice";
 import achSlice from "../slices/achSlice";
 import awardSlice from "../slices/awardSlice";
 import joinSlice from "../slices/joinSlice";
-
+import applySlice from "../slices/applySlice";
+import openSlice from "../slices/openSlice";
 export const store = configureStore({
   reducer: {
     resons: resonsSlice,
@@ -20,6 +21,8 @@ export const store = configureStore({
     ach: achSlice,
     award: awardSlice,
     join: joinSlice,
+    apply: applySlice,
+    open: openSlice,
   },
 });
 
