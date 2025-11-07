@@ -7,14 +7,12 @@ const Open: React.FC = () => {
 
   return (
     <section className="bg-[#0d0d0d] text-white py-16 px-6 md:px-20">
-      {/* العنوان */}
       <div className="mb-12 text-center">
         <h2 className="font-roboto text-3xl md:text-4xl font-bold text-white">
           Related Blogs
         </h2>
       </div>
 
-      {/* الكروت */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
         {open.map((item) => (
           <div
